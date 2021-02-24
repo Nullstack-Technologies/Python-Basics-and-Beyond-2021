@@ -10,6 +10,3 @@
     Website: nullstacks.com
     Email: null@nullstacks.com
 """
-
-
-python
