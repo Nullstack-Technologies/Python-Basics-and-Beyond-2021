@@ -6,6 +6,7 @@
 """
 
 # INDENTATION
+
 """
     Indentation refers to the spaces at the beginning of a code line.
 
@@ -14,10 +15,10 @@
     Python uses indentation to indicate a block of code.
 """
 
-a = 12
-if a == 12:
-    print("I will do this")
-    print("I will do this too")
+# a = 12
+# if a == 12:
+#     print("I will do this")
+#     print("I will do this too")
 
 
 

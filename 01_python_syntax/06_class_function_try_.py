@@ -48,12 +48,28 @@ print(p1.services)
 
 
 class NullStackTwo:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-  def myfunc():
-    print("Hello my name is " + abc.name)
+    def myfunc(self):
+        print("Hello my name is " + self.name)
 
-p1 = NullStackTwo("John", 36)
+p1 = NullStackTwo("Sayema Fatema", 26)
 p1.myfunc()
+
+"""
+    The try block lets you test a block of code for errors.
+
+    The except block lets you handle the error.
+
+    The finally block lets you execute code, regardless of the result of the try- and except blocks.
+"""
+
+try:
+    print(x)
+except:
+    print("An exception occurred")
+
+
+
