@@ -19,7 +19,7 @@ b = True
 print(x)
 print(y)
 print(z)
-print(T)
+# print(T)
 print(D["apple"])
 print(b)
 
@@ -57,7 +57,25 @@ btech_class = {
         'x',
         'y',
         'z'
+    ],
+    'subjects': [
+        {'name': 'Automata', 'code': 'EE001'},
+        {'name': 'Singal Systems', 'code': 'EE002'},
+        {'name': 'Python', 'code': 'PY'},
     ]
 }
 
 fruits = [{'name': 'Orange', 'color': 'orange'}, {'name': 'Apple', 'color': 'red'}]
+
+
+
+# Link to  string method list
+# https://docs.python.org/2.5/lib/string-methods.html
+
+
+
+# isalpha
+# Return true if all characters in the string are alphabetic and 
+# there is at least one character, false otherwise.
+
+# example: follow the terminal

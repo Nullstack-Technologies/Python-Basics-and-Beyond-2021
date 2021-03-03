@@ -38,12 +38,13 @@ x = lambda a : a + 10
     Almost everything in Python is an object, with its properties and methods.
 
     A Class is like an object constructor, or a "blueprint" for creating objects.
-"""
+"""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 
-class NullStack:
-  services = 'awesome'
+class Company:
+  def __init__(self):
+    super().__init__()
 
-p1 = NullStack()
+p1 = Company()
 print(p1.services)
 
 
