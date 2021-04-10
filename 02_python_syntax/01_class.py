@@ -49,30 +49,32 @@
 # car.igniton()
 
 
-# class Person:
-#     name = ""
-#     age = ""
+class Person:
+    name = ""
+    age = ""
 
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-#     def __str__(self):
-#         return f"Person<{self.name}>"
+    def __str__(self):
+        return f"Person<{self.name}>"
 
-#     # def __eq__(self, value):
-#     #     return self.age == value.age
+    def __eq__(self, value):
+        return self.age == value.age
 
-#     # def __lt__(self, value):
-#     #     return self.age < value.age
+    def __lt__(self, value):
+        return self.age < value.age
 
 
-# person_1 = Person("John", "100")
-# person_2 = Person("Doe", "99")
-# print(person_1)
-# print(person_2)
+person_1 = Person("John", "100")
+person_2 = Person("Doe", "99")
+print(person_1)
+print(person_2)
 
-# print(person_1 == person_2)
+# [person_1, person_2, ... n persons]
+
+print(person_1 < person_2)
 
 
 
