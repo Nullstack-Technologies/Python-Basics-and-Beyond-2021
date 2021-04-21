@@ -1,0 +1,18 @@
+.web-development {
+    color: yellow;
+    background-color: blueviolet;
+}
+
+
+
+.web-development-2 {
+    color: green;
+    background-color: black;
+}
+
+
+#my-div {
+    padding: 2px;
+    border: 2px solid black;
+    margin: 5px;
+}

@@ -1,0 +1,49 @@
+# Databases
+CREATE DATABASE python_b_a_b;
+
+# postgres
+\c python_b_a_b;
+
+# mysql
+use python_b_a_b;
+
+# CREATE A TABLE
+CREATE TABLE Person (
+	ID int NOT NULL PRIMARY KEY,
+	FirstName varchar(255) NOT NULL,
+	LastName varchar(255),
+	Age int
+);
+
+#arity -> 4
+
+ID FirstName LastName Age
+1  Nauman     Arif    101
+2  John       Mueller 105
+
+# Adding Data
+INSERT into Person(ID, FirstName, LastName, Age) VALUES(1, 'Jordan', 'Peterson', '60');
+Insert into Person(ID, FirstName, LastName, Age) VALUES(2, 'Shashi', 'Tharoor', '60');
+Insert into Person(ID, FirstName, LastName, Age) VALUES(3, 'Marsh', 'Peter', '10');
+
+
+# Querying Data
+SELECT * FROM Person;
+SELECT ID, AGE FROM Person;
+SELECT * FROM PERSON WHERE Age > 50;
+
+
+# Update a table/ row
+UPDATE Person SET LastName = 'Peterson', FirstName= 'Henry' WHERE ID = 1;
+
+# Delete Data
+DELETE FROM Person WHERE ID=1;
+DELETE FROm Person;
+
+# Alter the table definition
+
+# DRop a table
+DROP TABLE Person;
+
+# Drop A Database
+DROP DATABASE python_b_a_b;

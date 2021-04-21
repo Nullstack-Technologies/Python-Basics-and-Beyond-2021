@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title> Python Basics and Beyond </title>
+
+    <!-- External CSS-->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Internal CSS  -->
+    <style>
+        p {
+            font-size: 12px;
+            color: black;
+            background-color: aquamarine;
+        }
+
+        #second-web-dev-tag {
+            color: red;
+            background-color: beige;
+        }
+
+        .web-development {
+            color: cyan;
+            background-color:violet;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS  -->
+    <h1 style="color: rgb(0, 255, 76);background-color: #000099;" class="web-development"> Web Development </h1>
+    
+    <h2 id="second-web-dev-tag"> Web Development </h2>
+    <button onclick="changeSecondWebDev()">  Change The Above Text </button>
+
+
+    <h3 class="web-development"> Web Development </h3>
+    <h4> Web Development </h4>
+    <h5 class="web-development"> Web Development </h5>
+    <h6 class="web-development-2"> Web Development </h6>
+
+    <p> Web Development </p>
+    <p> Web Development 2 </p>
+
+    <img src="corona_happy.png" height=100" width="400" alt="Corona Virus">
+
+    <a href="https://stcet.ac.in"> Click Me </a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <td>Sl.No </td>
+            <td>Name </td>
+            <td>Age </td>
+        </tr>
+        <tr>
+            <td>1 </td>
+            <td>John </td>
+            <td>100 </td>
+        </tr>
+        <tr>
+            <td>2 </td>
+            <td>Lennon </td>
+            <td>50 </td>
+        </tr>
+
+    </table>
+
+
+    <div id="my-div">
+        <p> I am inside Div</p>
+    </div>
+
+    <script>
+        var a = 1;
+        console.log("Hi I am here", a);
+
+        // Change the HTML Value of second-web-dev-tag
+        // Camel Casing
+        function  changeSecondWebDev(){
+            document.getElementById('second-web-dev-tag').innerHTML = "I was Changed!";
+        }
+    </script>
+</body>
+
+</html>
