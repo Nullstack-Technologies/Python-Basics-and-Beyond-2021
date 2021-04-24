@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block content %}
+
+{% include 'includes/carousel.html' %}
+
+<!--https://getbootstrap.com/docs/5.0/layout/grid/-->
+<div class="container">
+    <h1 class="text-center"> Covid Resources Index</h1>
+    <div class="row">
+        {% for resource in resources %}
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ resource.title }}</h5>
+                    <p class="card-text">
+                        {{ resource.content }}
+                    </p>
+                </div>
+                {% if resource.date %}
+                <div class="text-center">
+                    <p> {{ resource.date }} </p>
+                </div>
+                {% endif %}
+                <div class="card-body">
+                    <a href="tel:{{ resource.contact_number }}" class="card-link">Call</a>
+                    <a href="{{ resource.contact_website }}" class="card-link">Open Website</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{%  endblock %}

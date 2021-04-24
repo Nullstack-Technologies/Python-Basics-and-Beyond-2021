@@ -1,2 +1,15 @@
 # Virtual Environment
 venv/
+08_django_project/venv
+
+# Idea IDE
+08_django_project/.idea/
+
+# Databases
+08_django_project/*.sqlite3
+
+# pyc files
+*.pyc
+
+# pycahches
+__pycache__/

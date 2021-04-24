@@ -1,0 +1,23 @@
+# <input> > add a query
+
+# form 
+# posted to your server
+
+# Database
+# Content
+id | title | content | date | author 
+
+
+SELECT * FROM CONTENT WHERE title like '\'\;Select * from Content\;';
+
+
+# SQL Injection
+# XSS Cross-Site Scripting
+# CSRF Cross SIte Request/Resource Forgery
+# ClickJacking
+
+
+# owasp 
+# web securtiy
+#https://owasp.org/
+
