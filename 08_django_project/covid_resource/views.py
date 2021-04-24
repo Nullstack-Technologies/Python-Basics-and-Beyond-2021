@@ -13,7 +13,6 @@ from covid_resource.models import CovidResource
 
 
 def home(request):
-
     # ORM queries
     # covid_resources = CovidResource.objects.filter(content__icontains="oxygen")
     covid_resources = CovidResource.objects.all()
