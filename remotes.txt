@@ -1,0 +1,4 @@
+origin  	https://github.com/Cadris/Python-Basics-and-Beyond-2021.git (fetch)
+origin 		https://github.com/Cadris/Python-Basics-and-Beyond-2021.git (push)
+upstream    https://github.com/Nullstack-Technologies/Python-Basics-and-Beyond-2021.git (fetch)
+upstream	https://github.com/Nullstack-Technologies/Python-Basics-and-Beyond-2021.git (push)
