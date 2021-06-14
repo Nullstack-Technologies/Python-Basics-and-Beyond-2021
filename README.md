@@ -1,6 +1,6 @@
 <h1 align="center">Python Basics and Beyond 2021 🚀</h1>
 <p align="center">
-  <img src="https://nullstacks.com/wp-content/uploads/2019/04/Nullstack-icon-150x150.png" />
+  <img src="https://nullstacks.com/static/nullstack-technologies/img/navbar_logo.png" />
 </p>
 
 > Python Basics & Beyond 🚀
